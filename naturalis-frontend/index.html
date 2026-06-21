@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBA Species Search</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+  <!-- Animated Space Background -->
+  <div class="space-container">
+    <div class="stars"></div>
+    <div class="nebula"></div>
+    <div class="nebula-2"></div>
+    <div class="cosmic-dust"></div>
+    <div class="galaxy-glow"></div>
+    <div class="shooting-star star1"></div>
+    <div class="shooting-star star2"></div>
+    <div class="shooting-star star3"></div>
+  </div>
+
+  <!-- Search Species Sidebar -->
+  <div class="leftbar">
+    <div class="search-group">
+      <label for="species-search">Search Species:</label>
+      <input type="text" id="species-search" placeholder="e.g., Panthera, felis" />
+    </div>
+    <button id="search-button" class="search-button">Search</button>
+
+    <div id="error-container"></div>
+
+    <div class="results-container">
+      <div class="results-header">Search Results (<span id="result-count">0</span>)</div>
+      <div id="results-list"></div>
+    </div>
+  </div>
+
+  <!-- Globe -->
+  <div class="center">
+    <div id="globe-container">
+      <canvas id="globe-canvas"></canvas>
+    </div>
+  </div>
+
+  <!-- Results Sidebar -->
+  <div class="rightbar">
+    <h3>Species Information</h3>
+    <div id="species-info" class="info">
+      <div class="no-results">Select a search result to view species information</div>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
