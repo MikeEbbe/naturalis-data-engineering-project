@@ -1,6 +1,6 @@
 # Naturalis Biodiversity Portfolio Project
 
-This is a portfolio project I did to demonstrate my data engineering and software devlopment skills. I used the [Netherlands Biodiversity API (NBA)](https://api.biodiversitydata.nl) to ingest, transform, and serve specimen data in an interactive UI.
+This is a portfolio project I did to demonstrate my data engineering and software devlopment skills. I used the [Netherlands Biodiversity API (NBA)](https://docs.biodiversitydata.nl/endpoints-reference/) to ingest, transform, and serve specimen data in an interactive UI.
 
 ![Architecture diagram](Mock-up%20%26%20ETL%20processchema.drawio.png)
 
